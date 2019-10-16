@@ -1107,7 +1107,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function _delete(task) {
           localStorage.removeItem(task.creationDate + "");
           location.reload(true);
-          this.router.navigate(['/home']);
+          this.router.navigate(['/']);
         }
       }, {
         key: "edit",
@@ -1564,7 +1564,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function _delete(task) {
           localStorage.removeItem(task.creationDate + "");
           location.reload(true);
-          this.router.navigate(['/home']);
+          this.router.navigate(['/']);
         }
       }, {
         key: "edit",

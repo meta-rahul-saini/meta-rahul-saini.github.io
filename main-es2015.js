@@ -543,7 +543,7 @@ let CompletedTaskComponent = class CompletedTaskComponent {
     delete(task) {
         localStorage.removeItem((task.creationDate + ""));
         location.reload(true);
-        this.router.navigate(['/home']);
+        this.router.navigate(['/']);
     }
     edit(task) {
         this.router.navigate(['/edit', task]);
@@ -818,7 +818,7 @@ let InProcessTaskComponent = class InProcessTaskComponent {
     delete(task) {
         localStorage.removeItem((task.creationDate + ""));
         location.reload(true);
-        this.router.navigate(['/home']);
+        this.router.navigate(['/']);
     }
     edit(task) {
         this.router.navigate(['/edit', task]);
